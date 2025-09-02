@@ -54,6 +54,9 @@ In Python, the closest structure is a **list**.
 ---
 
 ## 1. Subarray Sum Equals K
+
+Description:
+You are given an integer array nums and an integer k. Find the total number of continuous subarrays whose sum equals to k.
 ```python
 def subarray_sum(nums, k):
     count = 0
@@ -65,10 +68,20 @@ def subarray_sum(nums, k):
                 count += 1
     return count
 ```
+Sample Input/Output:
+`
+nums = [1, 2, 3]
+k = 3
+Subarrays = [1,2], [3] → Output: 2
+`
+
 
 ---
 
 ## 2. Rotate Array by K Steps
+Description:
+Rotate the array to the right by k steps.
+
 ```python
 def rotate(nums, k):
     for _ in range(k):
@@ -77,9 +90,19 @@ def rotate(nums, k):
     return nums
 ```
 
+Sample Input/Output:
+`
+nums = [1,2,3,4,5,6,7], k = 3
+Rotated array = [5,6,7,1,2,3,4]
+`
+
 ---
 
 ## 3. Missing Number in Range
+
+Description:
+Given an array containing n distinct numbers taken from 0..n, find the missing number.
+
 ```python
 def missing_number(nums):
     nums.sort()
@@ -89,9 +112,19 @@ def missing_number(nums):
     return len(nums)
 ```
 
+Sample Input/Output:
+`
+nums = [3,0,1]
+Missing = 2
+`
+
 ---
 
 ## 4. Find All Duplicates
+
+Description:
+Given an integer array, return all elements that appear more than once.
+
 ```python
 def find_duplicates(nums):
     res = []
@@ -102,16 +135,31 @@ def find_duplicates(nums):
     return res
 ```
 
+Sample Input/Output:
+`
+nums = [4,3,2,7,8,2,3,1]
+Duplicates = [2,3]
+`
+
 ---
 
 ## 5. Merge Two Sorted Arrays
+
+Description:
+You are given two sorted arrays. Merge them into one sorted array.
+
 ```python
 def merge(nums1, nums2):
     nums1.extend(nums2)
     nums1.sort()
     return nums1
 ```
-
+Sample Input/Output:
+`
+nums1 = [1,2,3]
+nums2 = [2,5,6]
+Merged = [1,2,2,3,5,6]
+`
 ---
 
 ## 6. Majority Element (> n/2 times)

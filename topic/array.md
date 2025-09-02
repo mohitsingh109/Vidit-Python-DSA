@@ -154,6 +154,7 @@ def merge(nums1, nums2):
     nums1.sort()
     return nums1
 ```
+
 Sample Input/Output:
 `
 nums1 = [1,2,3]

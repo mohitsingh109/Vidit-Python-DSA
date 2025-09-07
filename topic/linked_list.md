@@ -52,6 +52,61 @@ Here are **15 important LeetCode problems** to practice:
 
 ---
 
+# Advanced / Design-Oriented Linked List LeetCode Problems
+
+---
+
+## 1. [LRU Cache](https://leetcode.com/problems/lru-cache/)
+**Description:** Design a cache with `get` and `put` operations in O(1), using **HashMap + Doubly Linked List**.  
+
+---
+
+## 2. [LFU Cache](https://leetcode.com/problems/lfu-cache/)
+**Description:** Similar to LRU, but remove **least frequently used** instead of least recently used. Uses **HashMap + Linked List + Frequency Count**.  
+
+---
+
+## 3. [Design Browser History](https://leetcode.com/problems/design-browser-history/)
+**Description:** Implement browser forward/backward navigation using a **Doubly Linked List**.  
+
+---
+
+## 4. [Design Twitter](https://leetcode.com/problems/design-twitter/)
+**Description:** Use linked lists for tweet streams (each user has a linked list of tweets).  
+
+---
+
+## 5. [All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)
+**Description:** Maintain counts in a linked list of buckets to support `inc`, `dec`, `getMaxKey`, and `getMinKey` in O(1).  
+
+---
+
+## 6. [Design Linked List](https://leetcode.com/problems/design-linked-list/)
+**Description:** Implement your own linked list with operations like add, delete, and get.  
+
+---
+
+## 7. [Design Skiplist](https://leetcode.com/problems/design-skiplist/)
+**Description:** A probabilistic data structure using multiple levels of linked lists for fast search/insert/delete.  
+
+---
+
+## 8. [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
+**Description:** Each node may have a child pointer to another linked list → flatten into one list.  
+
+---
+
+## 9. [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+**Description:** Deep copy a linked list where nodes have `next` and `random` pointers.  
+
+---
+
+## 10. [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)
+**Description:** Return a random node’s value with equal probability (**Reservoir Sampling on Linked List**).  
+
+---
+
+
 # Linked List – Code Review Practice (Medium Level)
 
 Below are **15 buggy/inefficient code snippets** related to Linked Lists.  

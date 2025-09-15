@@ -65,6 +65,8 @@ A **queue** is a linear data structure that follows the **FIFO (First In, First 
    - Simulation using queue for snake body.  
 
 8. **Sliding Window Maximum** – [LeetCode #239](https://leetcode.com/problems/sliding-window-maximum/)  
-   - Monotonic deque to track max in sliding windows.  
+   - Monotonic deque to track max in sliding windows.
+   
+9. [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)  
 
 ---

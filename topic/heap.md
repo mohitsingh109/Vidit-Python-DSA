@@ -66,7 +66,7 @@ print(-heapq.heappop(max_heap))  # 10
 
 ---
 
-## 🛠️ Design-Oriented Heap Problems
+## Design-Oriented Heap Problems
 1. [Kth Largest Element in a Stream (#703)](https://leetcode.com/problems/kth-largest-element-in-a-stream/) – **Design a class that maintains the Kth largest element dynamically.**  
 2. [Find Median from Data Stream (#295)](https://leetcode.com/problems/find-median-from-data-stream/) – **Design a data structure to return running median.**  
 3. [Seat Reservation Manager (#1845)](https://leetcode.com/problems/seat-reservation-manager/) – **Design a manager that reserves/unreserves the smallest available seat.**  
